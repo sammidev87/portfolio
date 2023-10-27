@@ -1,0 +1,19 @@
+footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #191970;
+    padding: 20px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.responsive-footer {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+footer p {
+    color: white;
+}

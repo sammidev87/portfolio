@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.content {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.responsive-main {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10% 30% 50% 70%;
+    border: 5px groove #191970;
+}

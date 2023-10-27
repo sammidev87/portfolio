@@ -18,7 +18,7 @@ function Navbar() {
     return (
         <>
             <nav>
-                <Link to={Home} id="home" className={link === "home" ? "active" : ""} onClick={toggleLink}><img src={sd87} alt="sd87 logo" className="responsive" /></Link>
+                <Link to={Home} id="home" className={link === "home" ? "active" : ""} onClick={toggleLink}><img src={sd87} alt="sd87 logo" className="responsive-navbar" /></Link>
                 <div>
                     <ul id="navbar" className={icon === true ? "active" : ""}>
                         <li><Link to={Home} id="home" className={link === "home" ? "active" : ""} onClick={toggleLink}>Home</Link></li>

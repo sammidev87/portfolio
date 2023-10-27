@@ -4,12 +4,14 @@ import { Home, About, Education, Contact } from './pages';
 
 function App() {
   return (
-    <Routes>
+    <div className='App'>
+      <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
       <Route path='/education' element={<Education />} />
       <Route path='/contact' element={<Contact />} />
     </Routes>
+    </div>
   );
 }
 
