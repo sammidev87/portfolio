@@ -2,13 +2,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 20px;
+    padding: 150px 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
 .content {
-    text-align: right;
-    padding-right: 15px;
+    text-align: left;
+    color:  #191970;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.image {
+    padding-right: 25px;
 }
 
 .responsive-main {
@@ -16,5 +31,10 @@
     max-width: 400px;
     height: auto;
     border-radius: 10% 30% 50% 70%;
-    border: 5px groove #191970;
+    border: 5px solid #5499C7;
+}
+
+.icons {
+    padding-top: 15px;
+    font-size: 1.5rem;
 }
